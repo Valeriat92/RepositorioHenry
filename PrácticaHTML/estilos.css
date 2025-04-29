@@ -1,0 +1,39 @@
+/*Si quiero aplicar un estilo directamente a una etiqueta html la llamo directamente sin el ., tener en cuenta que va a aplicar a todas las etiquetas html del mismo tipo*/
+/*Esto es un tipo de selector más general*/
+
+header{
+    background-color: blueviolet;
+}
+
+
+/* Las clases son todas las que empiezan con "." y son para definir un estilo o un conjunto de los mismos. Una vez definido puedo aplicar la clase a cualquier elemento o etiqueta html, poniendola dentro de la etiqueta*/
+.fondo {
+    background-color: aquamarine;
+} 
+
+.miTexto{
+    /*font-size: 80px;*/
+    font-size: 3em;     /*"em" es el tamaño base de la fuente, el nro adelante indica cuantas veces el tamaño de la fuente quiero*/
+    color: blue;
+}
+
+
+/*Selección de elementos por ID, esto sirve para aplicar un stylo a un elemento específico, se utiliza el # */
+
+#titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#cabecera{
+    border: 2px solid black;
+    width: 65vw; /*viewport width -> porcentaje del ancho la pantalla donde esté*/
+    margin: 2em; /*que tanto se distancian los bordes de este elemento de los elementos que lo rodean, con el "auto" se centra automaticamente*/
+    padding: 1em ;/*del borde para adentro, cuanto se despega el contenido*/
+}
+
+.secciones:hover{ /*la clase secciones cuando pase el mouse por encima, esto es un seudo selector, es decir, la clase en determinado momento o bajo determinadas condiciones*/
+
+    background-color: aliceblue;
+    transition: 1s; /*el tiempo que demora en hacer el cambio, es para que sea mas suave*/
+
+}
