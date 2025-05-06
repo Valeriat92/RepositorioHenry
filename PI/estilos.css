@@ -1,0 +1,108 @@
+.encabezado{
+    background-color: #f1f1f1;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu{
+    padding-right: 4em;
+    gap: 2em;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    font-weight: 500px;
+
+}
+
+#LogoHenry{
+    width: 144.78px;
+    padding-left: 2em;
+}
+
+#home-candado {
+    width: 440px;        
+    height: 500px;
+    border-radius: 20px;  
+  }
+
+#contenedor-main{
+    display: flex;
+    max-width: 1166px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 4em auto 0;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+#textos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;
+}
+
+#seguridad{
+    font-family: 'Poppins', sans-serif;
+    color:#333;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.2;
+    border-radius: 40px;
+    display:inline-block;
+    padding: 0.4em 1em;
+    background-color: #f1f1f1;
+    margin: 0;
+
+}
+
+
+.titulo-henry{
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 900;
+    font-size: 90px;
+    display: block;
+    line-height: 116px;
+    letter-spacing: -0.01em; 
+    color: #222222;
+    margin:0;
+
+    }
+
+.highlight {
+    display: inline-block;
+    background-color: yellow;
+    color:#222222;
+    border-radius: 109px;
+    padding: 0.2em 0.3em;
+    font-weight: 900;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 90px;
+    text-align: left;
+    line-height: 87px;
+    letter-spacing: -0.01em; 
+    margin:0;
+  }
+
+  #parrafo{
+    font-family: 'Satoshi', sans-serif;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 500;
+    letter-spacing: 0.005em;
+    color: #676767;
+    margin:1em 0;
+  }
