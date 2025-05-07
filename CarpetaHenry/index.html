@@ -5,24 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Las recetas de Doña Porota</title>
     <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" type="text/css" href="./reset.css">
     
 </head>
 <body>
     <header>
-        <div class="cabecera">
-            <h1>Las recetas de Doña Porota</h1>
-
-            <div class="menu">
-                <span>SALADO</span>
-            </div>
-            
-            <div class="menu">
-            <span>DULCE</span>
+       <div id="cabecera">
+            <div>
+                <h1 id="titulo-web">Las recetas de Doña Porota</h1>
             </div>
 
-            <div class="menu">
-            <span>CONTACTO</span> 
-            </div>
+                <div id="menu">
+                    <span>SALADO</span>
+                    <span>DULCE</span>      
+                    <span>CONTACTO</span>
+                </div>
 
         </div>
     </header>
@@ -30,22 +27,25 @@
     <main>
         <section>
             <article>
-                <h3>Receta de la semana</h3>
-                    <h2>Cómo hacer los mejores panqueques: 6 Trucos!</h2>
-                    <img src="./panqueques.jpg">
-                    
-                    <h3>Receta de panqueques</h3>  
 
-                    <ul>
+               <div id="principal"> 
+
+                <h3 class="titulo-seccion">Receta de la semana</h3>
+                    <h2 id="titulo-receta">Cómo hacer los mejores panqueques: 6 Trucos!</h2>
+                    <img src="./panqueques.jpg" id="imagen-receta">
+                    
+                    <h3 class="subtitulos-receta">Receta de panqueques</h3>  
+
+                    <ul class="pasos">
                         <li>Tiempo de preparción: 20 minutos</li>
                         <li>Tiempo de cocción: 20 minutos</li>
                         <li>Tiempo total: 40 minutos</li>
                     </ul>               
 
 
-                    <h4>Ingredientes 20 panqueques chicos</h4>
+                    <h4 class="subtitulos-receta">Ingredientes 20 panqueques chicos</h4>
 
-                    <ul>
+                    <ul class="pasos">
                         <li>125g. de harina</li>
                         <li>250cc. de leche</li>
                         <li>2 huevos</li>
@@ -54,22 +54,31 @@
                     </ul>
 
 
-                    <h4>Como hacer los mejores panqueques paso a paso</h4>
-                    <ol>
-                        <li><p>Poner en la licuadora los huevos, la harina y un chorrito de leche, no más. Batir, separar la mezcla de los bordes y volver a batir hasta que no queden más grumos. ¿Se pueden hacer panqueques a mano? La respuesta es obvio que si. Pero yo utilizo licuadora.</p></li>
-                        <li><p>Colocar el resto de la leche y volver a batir hasta que quede una mezcla bien lisa.</p></li>
-                        <li><p>Llevar la mezcla a la heladera por una media hora para que la harina se hidrate. Si no lo hacer no pasa nada pero mejor hacerlo.</p></li>
-                        <li><p>Colocar una sartén o panquequera siempre a fuego mínimo. Un poco de manteca para dar sabor y que no se peguen , y echar el primer cucharón. El primer panqueque nunca queda bien, a veces se descarta.</p></li>
-                        <li><p>De a poco ir haciendo panqueque por panqueque con paciencia, enmantecando cada tanto el fondo para dar sabor. Hay que tener cuidado de que no se caliente demasiado la sartén o panquequera (sino es difícil desparramar la mezcla), no hay que intentar despegarlos (se despegan solos cuando están cocidos) y hay que cocinarlos poco tiempo del segundo lado, así quedan tiernos.</p></li>
-                        <li><p>Ir colocando panqueque por panqueque en un plato y tapando con un repasador para que no se sequen.</p></li>
-                        <li><p>¿Se pueden freezar?, sí, envueltos en film, y secar unas horas antes así no se rompen al intentar despegarlos.</p></li>
-                        <li><p>Para hacer los panqueques con dulce de leche, untar cada panqueque, hacer los rollitos como se ven en el video, doblando primero los bordes para que no se escape el dulce de leche, colocar en una fuente, espolvorear con azúcar impalpable y chocolate rallado. Llevar a microondas un minuto para calentar. Devorar, ser feliz. Después te puedes sentir un poquito culpable. Quién te quita lo bailado dicen por ahi.</p></li>
+                    <h4 class="subtitulos-receta">Como hacer los mejores panqueques paso a paso</h4>
+                    <ol class="pasos">
+                        <li>Poner en la licuadora los huevos, la harina y un chorrito de leche, no más. Batir, separar la mezcla de los bordes y volver a batir hasta que no queden más grumos. ¿Se pueden hacer panqueques a mano? La respuesta es obvio que si. Pero yo utilizo licuadora.</li>
+                        <li>Colocar el resto de la leche y volver a batir hasta que quede una mezcla bien lisa.</li>
+                        <li>Llevar la mezcla a la heladera por una media hora para que la harina se hidrate. Si no lo hacer no pasa nada pero mejor hacerlo.</p></li>
+                        <li>
+                            <p>Colocar una sartén o panquequera siempre a fuego mínimo. Un poco de manteca para dar sabor y que no se peguen , y echar el primer cucharón. El primer panqueque nunca queda bien, a veces se descarta.
+                        </li>
+                        <li>
+                            <p>De a poco ir haciendo panqueque por panqueque con paciencia, enmantecando cada tanto el fondo para dar sabor. Hay que tener cuidado de que no se caliente demasiado la sartén o panquequera (sino es difícil desparramar la mezcla), no hay que intentar despegarlos (se despegan solos cuando están cocidos) y hay que cocinarlos poco tiempo del segundo lado, así quedan tiernos.</p>
+                        </li>
+                        <li>
+                            <p>Ir colocando panqueque por panqueque en un plato y tapando con un repasador para que no se sequen.</p>
+                        </li>
+                        <li>
+                            <p>¿Se pueden freezar?, sí, envueltos en film, y secar unas horas antes así no se rompen al intentar despegarlos.</p>
+                        </li>
+                        <li>
+                            <p>Para hacer los panqueques con dulce de leche, untar cada panqueque, hacer los rollitos como se ven en el video, doblando primero los bordes para que no se escape el dulce de leche, colocar en una fuente, espolvorear con azúcar impalpable y chocolate rallado. Llevar a microondas un minuto para calentar. Devorar, ser feliz. Después te puedes sentir un poquito culpable. Quién te quita lo bailado dicen por ahi.</p>
+                        </li>
                     </ol>
 
-                        <p>Los panqueques son un clásico en Argentina, al igual que el dulce de leche. Quizás éste último es un poco más difícil de conseguir dependiendo de donde nos encontremos, pero ahora no tienen excusas para animarse a cocinar panqueques caseros!</p>
+                        <p><b>Los panqueques son un clásico en Argentina, al igual que el dulce de leche. Quizás éste último es un poco más difícil de conseguir dependiendo de donde nos encontremos, pero ahora no tienen excusas para animarse a cocinar panqueques caseros!</b></p>
 
-
-
+                </div>
             </article>
         </section>
     </main>

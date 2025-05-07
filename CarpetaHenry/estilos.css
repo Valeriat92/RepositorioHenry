@@ -1,16 +1,72 @@
-body{background-color: rgb(194, 242, 217);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-.cabecera{
-    background-color: rgb(175, 157, 191);
-    font-size: larger;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
     margin: auto;
-    width: 95vw;
+  }
+
+#cabecera{
+    background-color: rgb(175, 157, 191);
+    margin: 0;
     padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   }
+
+#titulo-web{
+    font-size: 50px;
+    
+}
+
+#menu{
+        position: absolute;
+        right: 0.1em;
+        top: 75%;
+        transform: translate(-50%);
+        display: flex;
+        gap: 1em;
+        font-size: 15px;
+}
+
+#menu span {
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+  
+
+#menu span:hover {
+    text-decoration: underline;
+}
+
+#principal{
+    padding: 1em;
+    width: 80vw;
+    margin:auto;
+    gap: 1em;
 
 }
 
-.menu:hover{
-        background-color: rgb(194, 185, 192);
+.titulo-seccion{
+    font-size: small;
+    margin-bottom: 1em;
+}
+
+#titulo-receta{
+    font-size: 40px;
+    align-items: center;
+}
+
+.subtitulos-receta{
+    font-size: 25px;
+}
+
+.pasos{
+    line-height: 2;
+}
+
+#imagen-receta{
+    width: 600px;
+    margin: 1em;
 }
