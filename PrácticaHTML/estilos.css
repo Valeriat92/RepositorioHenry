@@ -37,3 +37,21 @@ header{
     transition: 1s; /*el tiempo que demora en hacer el cambio, es para que sea mas suave*/
 
 }
+#contenedor-noticias{
+
+    background-color: azure;
+    width: 85vw;
+    margin:auto;
+    margin: top 1.5em;
+    border: 2px solid; color: rgb(34, 31, 31);
+    border-radius: 5px;
+    padding: 2em;
+    display: flex; /* sigue la logica de flex para posicionar el contenido, de forma prederterminada el conetendor de tipo flex posiciona los elementos en una fila horizontal*/
+    justify-content: space-evenly; /*regula el espaciado entre los elementos*/
+    
+}
+
+/*En todos los elementos div se puede colocar "display flex" lo que los posiciona de forma orizontal*/
+/*Con display: flex-direction: column los elementos se posicionan de forma vertical, en columna*/
+/*gap: espacio chiquito entre un elemento y otro, de forma horizontal*/
+/*align-items: center*/
